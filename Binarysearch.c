@@ -35,7 +35,7 @@ printf("Enter the value to be searched:");
     mid=(lowr+highr)/2;
 // searching
 		 while (lowr <= highr) {
-      if (number[mid] < search)
+      if (number[mid] < val)
          lowr = mid + 1;    
       else if (number[mid] == val) {
          printf("%d found at location %d.\n", val, mid+1);
